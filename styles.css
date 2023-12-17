@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #FF5733;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #main {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #main:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .introduction {
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #ecf0f1;
+  }
+  
+  .introduction h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #009688;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .introduction strong {
+    color: #FFC300;
+  }
+  
+  .introduction i {
+    color: #cff081;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  ul li::before {
+    content: "•";
+    color: #3498db;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 8px;
+  }
+  
+  a {
+    color: #9b59b6;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #8e44ad;
+  }
+  
+  b {
+    color: #27ae60;
+  }
+  
+  /* Adjustments to job descriptions */
+  #main > ul {
+    padding-left: 0;
+  }
+  
+  #main > ul > li {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease-in-out;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  #main > ul > li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  #main > ul > li:hover {
+    border-color: #3498db;
+  }
+  
+  /* Warm and cool background colors */
+  .introduction {
+    background-color: #6f80d5; /* Warm color */
+  }
+  
+  #main {
+    background-color:#f5deb3; /* Cool color */
+  }
+  
+  #main > ul > li:nth-child(even) {
+    background-color: #f0f0f0; /* Alternate cool color for list items */
+  }
+  
+  #main > ul > li:nth-child(odd) {
+    background-color: #e3f2fd; /* Alternate cool color for list items */
+  }
+  
+  .picture{
+    float: right;
+    width: 20vw;
+    height: 28vh;
+  }
+
+  .picture2{
+    float: right;
+    width: 12vw;
+    height: 17vh;
+    
+  }
